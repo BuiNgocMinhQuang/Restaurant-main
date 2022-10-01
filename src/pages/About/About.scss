@@ -1,0 +1,45 @@
+.app-about {
+  background-color: var(--color-black);
+}
+.app-about-content {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  column-gap: 5rem;
+  .app-about-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .app-about-desc {
+      margin-bottom: 2.5rem;
+      color: var(--color-gray);
+    }
+    .about-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .text-golden {
+      color: var(--color-golden);
+      font-family: var(--font-base);
+      font-size: 3rem;
+      margin: 2rem 0;
+    }
+  }
+}
+.decs-option {
+  display: flex;
+  justify-content: space-between;
+  img {
+    margin-right: 70px;
+  }
+  .desc-details {
+    color: var(--color-white);
+    font-size: 2rem;
+    font-family: var(--font-base);
+    font-weight: 100;
+  }
+  .gold-number {
+    color: var(--color-golden);
+    font-size: 2.5rem;
+  }
+}

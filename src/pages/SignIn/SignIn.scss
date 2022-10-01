@@ -1,0 +1,33 @@
+.signin {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+  background: linear-gradient(rgba(13, 12, 12, 0.5), rgba(18, 17, 17, 0.5)),
+    url("../../assets/signin-bg.jpeg");
+  .form-login {
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .SignInForm {
+      width: 100%;
+      padding: 30px;
+      input {
+        width: 300px;
+        color: var(--color-white);
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+.btn-login-gg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

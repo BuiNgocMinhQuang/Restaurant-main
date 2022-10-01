@@ -1,0 +1,23 @@
+.service {
+  background: var(--color-black);
+
+  .app-service-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    .about-btn {
+      width: 100%;
+      gap: 3rem;
+      button {
+        border-radius: 2px;
+        background-color: transparent;
+        color: var(--color-white);
+        border: 1px solid var(--color-golden);
+        transition: 0.5s;
+        &:hover {
+          background-color: var(--color-golden);
+          color: var(--color-black);
+        }
+      }
+    }
+  }
+}
